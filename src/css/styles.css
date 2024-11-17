@@ -1,18 +1,16 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
-/* Common styles */
-@import url('./reset.css');
-@import url('./base.css');
-@import url('./container.css');
-@import url('./animations.css');
 
-/* Sections style */
-@import url('./header.css');
-@import url('./vite-promo.css');
-@import url('./badges.css');
-@import url('./back-link.css');
-@import url('./footer.css');
+
+@import url('./gallery.css');
+
+.link-list {
+  display: flex;
+  list-style: none;
+  margin: 40px;
+  gap: 20px;
+    text-align: center;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 1.17;
+      letter-spacing: -0.02em;
+      color: #78320b;
+}
