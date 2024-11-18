@@ -1,0 +1,2 @@
+import"./assets/gallery-form-CpsVf-s5.js";const o="feedback-form-state",e={email:"",message:""},r=document.querySelector(".feedback-form");document.querySelector("input");document.querySelector("textarea");r.addEventListener("input",t=>{const{name:a,value:m}=t.target;e[a]=m.trim(),localStorage.setItem(o,JSON.stringify(e))});r.addEventListener("submit",t=>{if(t.preventDefault(),!e.email||!e.message){alert("All form fields must be filled in");return}console.log(e),localStorage.removeItem(o),r.reset()});
+//# sourceMappingURL=2-form.js.map
